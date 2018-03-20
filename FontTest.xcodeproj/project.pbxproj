@@ -12,6 +12,12 @@
 		E5AA61DE201FE97A00D3A98B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E5AA61DC201FE97A00D3A98B /* Main.storyboard */; };
 		E5AA61E0201FE97A00D3A98B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E5AA61DF201FE97A00D3A98B /* Assets.xcassets */; };
 		E5AA61E3201FE97A00D3A98B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E5AA61E1201FE97A00D3A98B /* LaunchScreen.storyboard */; };
+		E5AA61EB201FECA700D3A98B /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5AA61EA201FECA700D3A98B /* ResultViewController.swift */; };
+		E5AA61ED201FEFE500D3A98B /* GlobalData.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5AA61EC201FEFE500D3A98B /* GlobalData.swift */; };
+		E5AA61EF201FF4BD00D3A98B /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5AA61EE201FF4BC00D3A98B /* UIColor.swift */; };
+		E5AA61F1201FF67200D3A98B /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5AA61F0201FF67200D3A98B /* String.swift */; };
+		E5AA61F3201FF68A00D3A98B /* String+Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5AA61F2201FF68A00D3A98B /* String+Category.swift */; };
+		E5AA61F5201FF70000D3A98B /* DecimalFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5AA61F4201FF70000D3A98B /* DecimalFormatter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +28,12 @@
 		E5AA61DF201FE97A00D3A98B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E5AA61E2201FE97A00D3A98B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E5AA61E4201FE97A00D3A98B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E5AA61EA201FECA700D3A98B /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
+		E5AA61EC201FEFE500D3A98B /* GlobalData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalData.swift; sourceTree = "<group>"; };
+		E5AA61EE201FF4BC00D3A98B /* UIColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
+		E5AA61F0201FF67200D3A98B /* String.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
+		E5AA61F2201FF68A00D3A98B /* String+Category.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Category.swift"; sourceTree = "<group>"; };
+		E5AA61F4201FF70000D3A98B /* DecimalFormatter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DecimalFormatter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +68,12 @@
 			children = (
 				E5AA61D8201FE97900D3A98B /* AppDelegate.swift */,
 				E5AA61DA201FE97900D3A98B /* ViewController.swift */,
+				E5AA61EA201FECA700D3A98B /* ResultViewController.swift */,
+				E5AA61EC201FEFE500D3A98B /* GlobalData.swift */,
+				E5AA61F4201FF70000D3A98B /* DecimalFormatter.swift */,
+				E5AA61EE201FF4BC00D3A98B /* UIColor.swift */,
+				E5AA61F0201FF67200D3A98B /* String.swift */,
+				E5AA61F2201FF68A00D3A98B /* String+Category.swift */,
 				E5AA61DC201FE97A00D3A98B /* Main.storyboard */,
 				E5AA61DF201FE97A00D3A98B /* Assets.xcassets */,
 				E5AA61E1201FE97A00D3A98B /* LaunchScreen.storyboard */,
@@ -136,8 +154,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E5AA61F1201FF67200D3A98B /* String.swift in Sources */,
 				E5AA61DB201FE97900D3A98B /* ViewController.swift in Sources */,
 				E5AA61D9201FE97900D3A98B /* AppDelegate.swift in Sources */,
+				E5AA61ED201FEFE500D3A98B /* GlobalData.swift in Sources */,
+				E5AA61F5201FF70000D3A98B /* DecimalFormatter.swift in Sources */,
+				E5AA61F3201FF68A00D3A98B /* String+Category.swift in Sources */,
+				E5AA61EB201FECA700D3A98B /* ResultViewController.swift in Sources */,
+				E5AA61EF201FF4BD00D3A98B /* UIColor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,6 +299,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 88CXJ2J64G;
 				INFOPLIST_FILE = FontTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = org.nsa.app.FontTest;
@@ -289,6 +314,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 88CXJ2J64G;
 				INFOPLIST_FILE = FontTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = org.nsa.app.FontTest;
